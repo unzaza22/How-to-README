@@ -130,10 +130,18 @@ HSL: `hsl(H,S,L)`  `hsl(212,92%,45%)`
 #### Output:
 [Facebook](https://www.facebook.com/apisit.chatsuwan)
 
-## ลิงค์ส่วนต่างๆ(Section links)
+## ลิงค์หัวข้อ(Section links)
 #### Syntax:
 ```
 [Link Text](#How-to-README)
 ```
 #### Output:
 [Link Text](#How-to-README)
+
+## ลิงค์ไฟล์(Relative links)
+#### Syntax:
+```
+[Test relative links](RELATIVE.md)
+```
+#### Output:
+[Test relative links](RELATIVE.md)
