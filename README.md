@@ -263,3 +263,57 @@ A footnote can also have multiple lines[^2].
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
   This is a second line.
+
+## คำเตือน(Alert)
+#### Syntax:
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+#### Output:
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+## คอมเมนต์แบบซ่อน(Hiding content with comments)
+#### Syntax:
+```
+<!-- comment -->
+```
+#### Output:
+<!-- comment -->
+
+## ละเว้นการใช้ markdown(Ignoring Markdown formatting)
+#### Syntax:
+```
+ละเว้น markdown \*ตัวหนา\* กับ \*ตัวหนา\*. // ใช้ \ ก่อนสัญลักษณ์ markdown
+```
+#### Output:
+Let's rename \*our-new-project\* to \*our-old-project\*.
+[markdown syntax](https://daringfireball.net/projects/markdown/syntax#backslash)
+
+## ปิดการใช้งาน markdown
+![Disable Markdown](https://docs.github.com/assets/cb-11496/mw-1440/images/help/writing/display-markdown-as-source-global-nav-update.webp)
