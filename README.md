@@ -172,6 +172,15 @@ a<br/><br/>b<br/><br/><br/>c
 #### Output:
 ![Github logo](https://cdn1.vc4a.com/media/2021/08/github-logo.jpg)
 
+## Image captions 
+#### Syntax:
+```
+![Github logo](https://cdn1.vc4a.com/media/2021/08/github-logo.jpg)
+*A single track trail outside of Albuquerque, New Mexico.*
+```
+#### Output:
+![Github logo](https://cdn1.vc4a.com/media/2021/08/github-logo.jpg) *A single track trail outside of Albuquerque, New Mexico.*
+
 ## รายการ(Lists)
 #### Syntax:
 ```
@@ -317,3 +326,61 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## ปิดการใช้งาน markdown
 ![Disable Markdown](https://docs.github.com/assets/cb-11496/mw-1440/images/help/writing/display-markdown-as-source-global-nav-update.webp)
+
+## Indent(Tab)
+#### Syntax:
+```
+&nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.
+```
+#### Output:
+&nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.
+
+## Comments
+#### Syntax:
+```
+Here's a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # 
+
+And here's another paragraph that's visible.
+```
+#### Output:
+Here's a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # 
+
+And here's another paragraph that's visible.
+
+## Symbols
+#### Syntax:
+```
+Copyright (©) — &copy;
+Registered trademark (®) — &reg;
+Trademark (™) — &trade;
+Euro (€) — &euro;
+Left arrow (←) — &larr;
+Up arrow (↑) — &uarr;
+Right arrow (→) — &rarr;
+Down arrow (↓) — &darr;
+Degree (°) — &#176;
+Pi (π) — &#960;
+```
+#### Output:
+Copyright (©) — &copy;<br />
+Registered trademark (®) — &reg;<br />
+Trademark (™) — &trade;<br />
+Euro (€) — &euro;<br />
+Left arrow (←) — &larr;<br />
+Up arrow (↑) — &uarr;<br />
+Right arrow (→) — &rarr;<br />
+Down arrow (↓) — &darr;<br />
+Degree (°) — &#176;<br />
+Pi (π) — &#960;
+
+## Videos
+#### Syntax:
+```
+[![HRK ปิดช่อง](https://i.ytimg.com/vi/e9HtEShMino/maxresdefault.jpg)](https://www.youtube.com/watch?v=e9HtEShMino)
+```
+#### Output:
+[![HRK ปิดช่อง](https://i.ytimg.com/vi/e9HtEShMino/maxresdefault.jpg)](https://www.youtube.com/watch?v=e9HtEShMino)
