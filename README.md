@@ -133,7 +133,7 @@ HSL: `hsl(H,S,L)`  `hsl(212,92%,45%)`
 ## ลิงค์ส่วนต่างๆ(Section links)
 #### Syntax:
 ```
-[Link Text](#ลิงค์ส่วนต่างๆ(Section-links))
+[Link Text](#How-to-README)
 ```
 #### Output:
-[Link Text](#การอ้างอิ้งโค้ด)
+[Link Text](#How-to-README)
